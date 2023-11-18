@@ -1,0 +1,12 @@
+// manifest.json
+{
+  "manifest_version": 2,
+  "name": "Scrimba Access",
+  "version": "1.0",
+  "description": "Instantly access Scrimba education content.",
+  "browser_action": {
+    "default_icon": "icons/icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": ["activeTab"]
+}
